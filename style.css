@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 1em;
+    border: none;
+    color: cadetblue;  
+    font-weight: 800;
+}
+
+
+h2 {
+     font-weight: bold;
+     font-size: 25px;
+     margin: 0;
+     padding-top: 1em;
+     border: none;
+     color: cadetblue; 
+     font-weight: 800;
+}
+
+
+
+nav li {
+    float: left;
+}
+
+
+nav li a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 20px 20px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    background-color: cadetblue;
+    margin: 0;
+    padding: 0;
+    top:0;
+    left:0;
+    width:100%;
+    position: fixed;
+}
+
+
+
+body {
+     background-color: cornsilk;
+     font-family: "Source Sans Pro", "Open Sans", sans-serif;
+     font-size: 16px;
+     padding: 1em;
+     margin: 0 auto;
+     max-width: 100em;
+     line-height: 1.5;
+     text-align: center;
+     font-weight: 600;
+}  
+
+
+
+footer {
+    text-align: center;
+    color: cadetblue;
+}
+
+
+
+header { 
+    background-image: url("titelbild.jpg"); 
+    background-position: center top; 
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    padding: 18vw 2em; 
+    text-align: center;
+    max-width: none;
+    line-height: 1.5;
+}
+
+
+
+.primaer {
+    color: limegreen;
+}
+
+
+
+.bilder {
+    border: 1px solid grey;
+}
